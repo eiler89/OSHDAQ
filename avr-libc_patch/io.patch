@@ -1,0 +1,15 @@
+--- /export/home/oyvindsc/io.h	2015-04-29 14:29:54.114678451 +0200
++++ /usr/lib/avr/include/avr/io.h	2015-04-29 13:21:03.309510354 +0200
+@@ -382,6 +382,12 @@
+ #  include <avr/iox32a4.h>
+ #elif defined (__AVR_ATxmega32D4__)
+ #  include <avr/iox32d4.h>
++#elif defined (__AVR_ATxmega8E5__)
++#  include <avr/iox8e5.h>
++#elif defined (__AVR_ATxmega16E5__)
++#  include <avr/iox16e5.h>
++#elif defined (__AVR_ATxmega32E5__)
++#  include <avr/iox32e5.h>
+ #elif defined (__AVR_ATxmega64A1__)
+ #  include <avr/iox64a1.h>
+ #elif defined (__AVR_ATxmega64A1U__)
