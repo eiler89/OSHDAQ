@@ -1,0 +1,1418 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+                              xmega/applications/xmega_a1_xplained_demo/main.o (__muluhisi3)
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+                              xmega/applications/xmega_a1_xplained_demo/main.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o (exit)
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+                              xmega/applications/xmega_a1_xplained_demo/main.o (__tablejump2__)
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+                              common/services/sleepmgr/xmega/sleepmgr.o (__do_copy_data)
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+                              common/services/sleepmgr/xmega/sleepmgr.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+                              /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o) (__umulhisi3)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+                              xmega/drivers/nvm/nvm.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+sequence_buffer_length
+                    0x1               xmega/applications/xmega_a1_xplained_demo/main.o
+sleepmgr_locks      0x6               common/services/sleepmgr/xmega/sleepmgr.o
+sequence_buffer     0xff              xmega/applications/xmega_a1_xplained_demo/main.o
+
+Discarded input sections
+
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+ .text          0x0000000000000000        0x0 common/services/clock/xmega/sysclk.o
+ .bss           0x0000000000000000        0x0 common/services/clock/xmega/sysclk.o
+ .text          0x0000000000000000        0x0 common/services/ioport/xmega/ioport_compat.o
+ .bss           0x0000000000000000        0x0 common/services/ioport/xmega/ioport_compat.o
+ .text          0x0000000000000000        0x0 common/services/sleepmgr/xmega/sleepmgr.o
+ .bss           0x0000000000000000        0x0 common/services/sleepmgr/xmega/sleepmgr.o
+ .data.sleepmgr_configs
+                0x0000000000000000        0xc common/services/sleepmgr/xmega/sleepmgr.o
+ .text          0x0000000000000000        0x0 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss           0x0000000000000000        0x0 xmega/applications/xmega_a1_xplained_demo/main.o
+ .text          0x0000000000000000        0x0 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss           0x0000000000000000        0x0 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .text.ilog2.part.2
+                0x0000000000000000       0x66 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .progmem.data.snd_bell
+                0x0000000000000000      0xa40 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .text          0x0000000000000000        0x0 xmega/boards/xmega_a1_xplained/init.o
+ .bss           0x0000000000000000        0x0 xmega/boards/xmega_a1_xplained/init.o
+ .text          0x0000000000000000        0x0 xmega/drivers/dac/dac.o
+ .bss           0x0000000000000000        0x0 xmega/drivers/dac/dac.o
+ .text.dac_disable
+                0x0000000000000000       0x32 xmega/drivers/dac/dac.o
+ .text.dac_is_enabled
+                0x0000000000000000       0x24 xmega/drivers/dac/dac.o
+ .text.dac_read_configuration
+                0x0000000000000000       0x42 xmega/drivers/dac/dac.o
+ .text          0x0000000000000000        0x0 xmega/drivers/nvm/nvm.o
+ .bss           0x0000000000000000        0x0 xmega/drivers/nvm/nvm.o
+ .text.nvm_read_production_signature_row
+                0x0000000000000000        0xa xmega/drivers/nvm/nvm.o
+ .text.nvm_read_device_serial
+                0x0000000000000000       0x64 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_read_buffer
+                0x0000000000000000       0x60 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_write_byte
+                0x0000000000000000       0x64 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_erase_and_write_buffer
+                0x0000000000000000       0x7e xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_split_write_page
+                0x0000000000000000       0x32 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_fill_buffer_with_value
+                0x0000000000000000       0x24 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_erase_bytes_in_page
+                0x0000000000000000       0x32 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_erase_page
+                0x0000000000000000       0x12 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_erase_bytes_in_all_pages
+                0x0000000000000000        0xc xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_erase_all
+                0x0000000000000000        0xa xmega/drivers/nvm/nvm.o
+ .text.nvm_issue_flash_range_crc
+                0x0000000000000000       0x5a xmega/drivers/nvm/nvm.o
+ .text.nvm_flash_read_buffer
+                0x0000000000000000       0x64 xmega/drivers/nvm/nvm.o
+ .text.nvm_user_sig_read_buffer
+                0x0000000000000000       0x42 xmega/drivers/nvm/nvm.o
+ .text.nvm_user_sig_write_buffer
+                0x0000000000000000      0x12e xmega/drivers/nvm/nvm.o
+ .text.nvm_flash_erase_and_write_buffer
+                0x0000000000000000      0x158 xmega/drivers/nvm/nvm.o
+ .text.nvm_fuses_read
+                0x0000000000000000       0x36 xmega/drivers/nvm/nvm.o
+ .text          0x0000000000000000        0x0 xmega/drivers/tc/tc.o
+ .bss           0x0000000000000000        0x0 xmega/drivers/tc/tc.o
+ .text.tc_disable
+                0x0000000000000000       0xbe xmega/drivers/tc/tc.o
+ .text.tc_set_error_interrupt_callback
+                0x0000000000000000       0x8e xmega/drivers/tc/tc.o
+ .text.tc_set_cca_interrupt_callback
+                0x0000000000000000       0x8e xmega/drivers/tc/tc.o
+ .text.tc_set_ccb_interrupt_callback
+                0x0000000000000000       0x8e xmega/drivers/tc/tc.o
+ .text.tc_set_ccc_interrupt_callback
+                0x0000000000000000       0x46 xmega/drivers/tc/tc.o
+ .text.tc_set_ccd_interrupt_callback
+                0x0000000000000000       0x46 xmega/drivers/tc/tc.o
+ .text          0x0000000000000000        0x0 xmega/drivers/cpu/ccp.o
+ .bss           0x0000000000000000        0x0 xmega/drivers/cpu/ccp.o
+ .text          0x0000000000000000        0x0 xmega/drivers/nvm/nvm_asm.o
+ .bss           0x0000000000000000        0x0 xmega/drivers/nvm/nvm_asm.o
+ .BOOT          0x0000000000000000       0x44 xmega/drivers/nvm/nvm_asm.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000100000 xr
+data             0x0000000000802000 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+Address of section .BOOT set to 0x20000
+LOAD common/services/clock/xmega/sysclk.o
+LOAD common/services/ioport/xmega/ioport_compat.o
+LOAD common/services/sleepmgr/xmega/sleepmgr.o
+LOAD xmega/applications/xmega_a1_xplained_demo/main.o
+LOAD xmega/applications/xmega_a1_xplained_demo/sound.o
+LOAD xmega/boards/xmega_a1_xplained/init.o
+LOAD xmega/drivers/dac/dac.o
+LOAD xmega/drivers/nvm/nvm.o
+LOAD xmega/drivers/tc/tc.o
+LOAD xmega/drivers/cpu/ccp.o
+LOAD xmega/drivers/nvm/nvm_asm.o
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libm.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000    0x1e64a
+ *(.vectors)
+ .vectors       0x0000000000000000      0x1f4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.main
+                0x00000000000001f4        0xe xmega/applications/xmega_a1_xplained_demo/main.o
+ *(.progmem*)
+ .progmem.data.snd_fanfare
+                0x0000000000000202     0x7000 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x0000000000000202                snd_fanfare
+ .progmem.data.snd_youwin
+                0x0000000000007202     0x4d2c xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x0000000000007202                snd_youwin
+ .progmem.data.snd_synth3
+                0x000000000000bf2e     0x378f xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000000bf2e                snd_synth3
+ .progmem.data.snd_synth2
+                0x000000000000f6bd     0x246e xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000000f6bd                snd_synth2
+ .progmem.data.snd_synth1
+                0x0000000000011b2b     0x1e18 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x0000000000011b2b                snd_synth1
+ .progmem.data.snd_sax
+                0x0000000000013943     0x28ea xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x0000000000013943                snd_sax
+ .progmem.data.snd_drumroll
+                0x000000000001622d     0x1770 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001622d                snd_drumroll
+ .progmem.data.snd_sym
+                0x000000000001799d     0x38e2 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001799d                snd_sym
+ .progmem.data.snd_drum
+                0x000000000001b27f     0x107d xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001b27f                snd_drum
+ .progmem.data.snd_sine
+                0x000000000001c2fc      0x200 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001c2fc                snd_sine
+                0x000000000001c4fc                . = ALIGN (0x2)
+                0x000000000001c4fc                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000001c4fc        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000001c4fc                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000001c4fc                __ctors_start = .
+ *(.ctors)
+                0x000000000001c4fc                __ctors_end = .
+                0x000000000001c4fc                __dtors_start = .
+ *(.dtors)
+                0x000000000001c4fc                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000001c4fc        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+                0x000000000001c4fc                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000001c4fc       0x18 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000001c514       0x1c /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+                0x000000000001c514                __do_copy_data
+ .init4         0x000000000001c530       0x10 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+                0x000000000001c530                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000001c540        0x6 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000001c546        0x4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+                0x000000000001c546                __vector_38
+                0x000000000001c546                __vector_104
+                0x000000000001c546                __vector_63
+                0x000000000001c546                __vector_28
+                0x000000000001c546                __vector_67
+                0x000000000001c546                __vector_1
+                0x000000000001c546                __vector_119
+                0x000000000001c546                __vector_32
+                0x000000000001c546                __vector_75
+                0x000000000001c546                __vector_71
+                0x000000000001c546                __vector_91
+                0x000000000001c546                __vector_34
+                0x000000000001c546                __vector_62
+                0x000000000001c546                __vector_102
+                0x000000000001c546                __vector_24
+                0x000000000001c546                __vector_12
+                0x000000000001c546                __vector_69
+                0x000000000001c546                __vector_90
+                0x000000000001c546                __vector_46
+                0x000000000001c546                __bad_interrupt
+                0x000000000001c546                __vector_122
+                0x000000000001c546                __vector_72
+                0x000000000001c546                __vector_6
+                0x000000000001c546                __vector_31
+                0x000000000001c546                __vector_92
+                0x000000000001c546                __vector_35
+                0x000000000001c546                __vector_74
+                0x000000000001c546                __vector_39
+                0x000000000001c546                __vector_107
+                0x000000000001c546                __vector_3
+                0x000000000001c546                __vector_105
+                0x000000000001c546                __vector_98
+                0x000000000001c546                __vector_68
+                0x000000000001c546                __vector_30
+                0x000000000001c546                __vector_73
+                0x000000000001c546                __vector_45
+                0x000000000001c546                __vector_25
+                0x000000000001c546                __vector_93
+                0x000000000001c546                __vector_61
+                0x000000000001c546                __vector_11
+                0x000000000001c546                __vector_99
+                0x000000000001c546                __vector_13
+                0x000000000001c546                __vector_7
+                0x000000000001c546                __vector_123
+                0x000000000001c546                __vector_41
+                0x000000000001c546                __vector_100
+                0x000000000001c546                __vector_101
+                0x000000000001c546                __vector_64
+                0x000000000001c546                __vector_88
+                0x000000000001c546                __vector_43
+                0x000000000001c546                __vector_27
+                0x000000000001c546                __vector_5
+                0x000000000001c546                __vector_33
+                0x000000000001c546                __vector_76
+                0x000000000001c546                __vector_37
+                0x000000000001c546                __vector_95
+                0x000000000001c546                __vector_103
+                0x000000000001c546                __vector_96
+                0x000000000001c546                __vector_89
+                0x000000000001c546                __vector_4
+                0x000000000001c546                __vector_44
+                0x000000000001c546                __vector_106
+                0x000000000001c546                __vector_118
+                0x000000000001c546                __vector_9
+                0x000000000001c546                __vector_2
+                0x000000000001c546                __vector_66
+                0x000000000001c546                __vector_36
+                0x000000000001c546                __vector_58
+                0x000000000001c546                __vector_70
+                0x000000000001c546                __vector_29
+                0x000000000001c546                __vector_60
+                0x000000000001c546                __vector_121
+                0x000000000001c546                __vector_40
+                0x000000000001c546                __vector_94
+                0x000000000001c546                __vector_8
+                0x000000000001c546                __vector_26
+                0x000000000001c546                __vector_124
+                0x000000000001c546                __vector_57
+                0x000000000001c546                __vector_10
+                0x000000000001c546                __vector_59
+                0x000000000001c546                __vector_97
+                0x000000000001c546                __vector_42
+                0x000000000001c546                __vector_87
+                0x000000000001c546                __vector_65
+                0x000000000001c546                __vector_120
+                0x000000000001c54a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.sysclk_init
+                0x000000000001c54a       0x90 common/services/clock/xmega/sysclk.o
+                0x000000000001c54a                sysclk_init
+ .text.sysclk_enable_module
+                0x000000000001c5da       0x16 common/services/clock/xmega/sysclk.o
+                0x000000000001c5da                sysclk_enable_module
+ .text.sysclk_disable_module
+                0x000000000001c5f0       0x14 common/services/clock/xmega/sysclk.o
+                0x000000000001c5f0                sysclk_disable_module
+ .text.ioport_configure_port_pin
+                0x000000000001c604       0x44 common/services/ioport/xmega/ioport_compat.o
+                0x000000000001c604                ioport_configure_port_pin
+ .text.start_save_timer
+                0x000000000001c648        0xe xmega/applications/xmega_a1_xplained_demo/main.o
+ .text.timeout_callback
+                0x000000000001c656       0x1e xmega/applications/xmega_a1_xplained_demo/main.o
+                0x000000000001c656                timeout_callback
+ .text.startup.main
+                0x000000000001c674      0x4ba xmega/applications/xmega_a1_xplained_demo/main.o
+                0x000000000001c674                main
+ .text.sample_callback
+                0x000000000001cb2e      0x19c xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001cb2e                sample_callback
+ .text.sound_init
+                0x000000000001ccca       0x8c xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001ccca                sound_init
+ .text.sound_play_note
+                0x000000000001cd56       0xe0 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001cd56                sound_play_note
+ .text.sound_is_playing
+                0x000000000001ce36       0x24 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001ce36                sound_is_playing
+ .text.sound_play_sample
+                0x000000000001ce5a      0x194 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x000000000001ce5a                sound_play_sample
+ .text.ioport_configure_pin
+                0x000000000001cfee       0x24 xmega/boards/xmega_a1_xplained/init.o
+ .text.board_init
+                0x000000000001d012       0x90 xmega/boards/xmega_a1_xplained/init.o
+                0x000000000001d012                board_init
+ .text.dac_enable_clock
+                0x000000000001d0a2       0x40 xmega/drivers/dac/dac.o
+ .text.dac_disable_clock
+                0x000000000001d0e2       0x3c xmega/drivers/dac/dac.o
+ .text.dac_enable
+                0x000000000001d11e       0x3a xmega/drivers/dac/dac.o
+                0x000000000001d11e                dac_enable
+ .text.dac_write_configuration
+                0x000000000001d158       0x8c xmega/drivers/dac/dac.o
+                0x000000000001d158                dac_write_configuration
+ .text.nvm_wait_until_ready
+                0x000000000001d1e4        0xa xmega/drivers/nvm/nvm.o
+ .text.nvm_issue_command
+                0x000000000001d1ee       0x22 xmega/drivers/nvm/nvm.o
+ .text.nvm_eeprom_read_byte
+                0x000000000001d210       0x22 xmega/drivers/nvm/nvm.o
+                0x000000000001d210                nvm_eeprom_read_byte
+ .text.nvm_eeprom_flush_buffer
+                0x000000000001d232       0x1c xmega/drivers/nvm/nvm.o
+                0x000000000001d232                nvm_eeprom_flush_buffer
+ .text.nvm_eeprom_load_byte_to_buffer
+                0x000000000001d24e       0x3c xmega/drivers/nvm/nvm.o
+                0x000000000001d24e                nvm_eeprom_load_byte_to_buffer
+ .text.nvm_eeprom_load_page_to_buffer
+                0x000000000001d28a       0x20 xmega/drivers/nvm/nvm.o
+                0x000000000001d28a                nvm_eeprom_load_page_to_buffer
+ .text.nvm_eeprom_atomic_write_page
+                0x000000000001d2aa       0x2e xmega/drivers/nvm/nvm.o
+                0x000000000001d2aa                nvm_eeprom_atomic_write_page
+ .text.__vector_14
+                0x000000000001d2d8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d2d8                __vector_14
+ .text.__vector_15
+                0x000000000001d348       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d348                __vector_15
+ .text.__vector_16
+                0x000000000001d3b8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d3b8                __vector_16
+ .text.__vector_17
+                0x000000000001d428       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d428                __vector_17
+ .text.__vector_18
+                0x000000000001d498       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d498                __vector_18
+ .text.__vector_19
+                0x000000000001d508       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d508                __vector_19
+ .text.__vector_20
+                0x000000000001d578       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d578                __vector_20
+ .text.__vector_21
+                0x000000000001d5e8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d5e8                __vector_21
+ .text.__vector_22
+                0x000000000001d658       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d658                __vector_22
+ .text.__vector_23
+                0x000000000001d6c8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d6c8                __vector_23
+ .text.__vector_77
+                0x000000000001d738       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d738                __vector_77
+ .text.__vector_78
+                0x000000000001d7a8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d7a8                __vector_78
+ .text.__vector_79
+                0x000000000001d818       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d818                __vector_79
+ .text.__vector_80
+                0x000000000001d888       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d888                __vector_80
+ .text.__vector_81
+                0x000000000001d8f8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d8f8                __vector_81
+ .text.__vector_82
+                0x000000000001d968       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d968                __vector_82
+ .text.__vector_83
+                0x000000000001d9d8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001d9d8                __vector_83
+ .text.__vector_84
+                0x000000000001da48       0x70 xmega/drivers/tc/tc.o
+                0x000000000001da48                __vector_84
+ .text.__vector_85
+                0x000000000001dab8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dab8                __vector_85
+ .text.__vector_86
+                0x000000000001db28       0x70 xmega/drivers/tc/tc.o
+                0x000000000001db28                __vector_86
+ .text.__vector_47
+                0x000000000001db98       0x70 xmega/drivers/tc/tc.o
+                0x000000000001db98                __vector_47
+ .text.__vector_48
+                0x000000000001dc08       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dc08                __vector_48
+ .text.__vector_49
+                0x000000000001dc78       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dc78                __vector_49
+ .text.__vector_50
+                0x000000000001dce8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dce8                __vector_50
+ .text.__vector_51
+                0x000000000001dd58       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dd58                __vector_51
+ .text.__vector_52
+                0x000000000001ddc8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001ddc8                __vector_52
+ .text.__vector_53
+                0x000000000001de38       0x70 xmega/drivers/tc/tc.o
+                0x000000000001de38                __vector_53
+ .text.__vector_54
+                0x000000000001dea8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dea8                __vector_54
+ .text.__vector_55
+                0x000000000001df18       0x70 xmega/drivers/tc/tc.o
+                0x000000000001df18                __vector_55
+ .text.__vector_56
+                0x000000000001df88       0x70 xmega/drivers/tc/tc.o
+                0x000000000001df88                __vector_56
+ .text.__vector_108
+                0x000000000001dff8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001dff8                __vector_108
+ .text.__vector_109
+                0x000000000001e068       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e068                __vector_109
+ .text.__vector_110
+                0x000000000001e0d8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e0d8                __vector_110
+ .text.__vector_111
+                0x000000000001e148       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e148                __vector_111
+ .text.__vector_112
+                0x000000000001e1b8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e1b8                __vector_112
+ .text.__vector_113
+                0x000000000001e228       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e228                __vector_113
+ .text.__vector_114
+                0x000000000001e298       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e298                __vector_114
+ .text.__vector_115
+                0x000000000001e308       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e308                __vector_115
+ .text.__vector_116
+                0x000000000001e378       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e378                __vector_116
+ .text.__vector_117
+                0x000000000001e3e8       0x70 xmega/drivers/tc/tc.o
+                0x000000000001e3e8                __vector_117
+ .text.tc_enable
+                0x000000000001e458       0xbe xmega/drivers/tc/tc.o
+                0x000000000001e458                tc_enable
+ .text.tc_set_overflow_interrupt_callback
+                0x000000000001e516       0x8e xmega/drivers/tc/tc.o
+                0x000000000001e516                tc_set_overflow_interrupt_callback
+ .text.ccp_write_io
+                0x000000000001e5a4        0xc xmega/drivers/cpu/ccp.o
+                0x000000000001e5a4                ccp_write_io
+ .text.nvm_read_byte
+                0x000000000001e5b0       0x14 xmega/drivers/nvm/nvm_asm.o
+                0x000000000001e5b0                nvm_read_byte
+ .text.libgcc.mul
+                0x000000000001e5c4       0x14 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+                0x000000000001e5c4                __muluhisi3
+ .text.libgcc.div
+                0x000000000001e5d8       0x44 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+                0x000000000001e5d8                __udivmodsi4
+ .text.libgcc   0x000000000001e61c        0xc /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+                0x000000000001e61c                __tablejump2__
+                0x000000000001e620                __tablejump__
+ .text.libgcc.mul
+                0x000000000001e628       0x1e /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+                0x000000000001e628                __umulhisi3
+                0x000000000001e646                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000001e646        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+                0x000000000001e646                exit
+                0x000000000001e646                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000001e646        0x4 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000000000001e64a                _etext = .
+
+.data           0x0000000000802000       0x2a load address 0x000000000001e64a
+                0x0000000000802000                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+ .data          0x0000000000802000        0x0 common/services/clock/xmega/sysclk.o
+ .data          0x0000000000802000        0x0 common/services/ioport/xmega/ioport_compat.o
+ .data          0x0000000000802000        0x0 common/services/sleepmgr/xmega/sleepmgr.o
+ .data          0x0000000000802000        0x0 xmega/applications/xmega_a1_xplained_demo/main.o
+ .data          0x0000000000802000        0x0 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .data          0x0000000000802000        0x0 xmega/boards/xmega_a1_xplained/init.o
+ .data          0x0000000000802000        0x0 xmega/drivers/dac/dac.o
+ .data          0x0000000000802000        0x0 xmega/drivers/nvm/nvm.o
+ .data          0x0000000000802000        0x0 xmega/drivers/tc/tc.o
+ .data          0x0000000000802000        0x0 xmega/drivers/cpu/ccp.o
+ .data          0x0000000000802000        0x0 xmega/drivers/nvm/nvm_asm.o
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+ *(.data*)
+ .data.game_top.5204
+                0x0000000000802000        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .data.newgame.5203
+                0x0000000000802001        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .data.notes    0x0000000000802002       0x28 xmega/applications/xmega_a1_xplained_demo/sound.o
+                0x0000000000802002                notes
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x000000000080202a                . = ALIGN (0x2)
+                0x000000000080202a                _edata = .
+                0x000000000080202a                PROVIDE (__data_end, .)
+
+.bss            0x000000000080202a      0x19b
+                0x000000000080202a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.game_seq.5205
+                0x000000000080202a        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.pressed_buttons.5209
+                0x000000000080202b        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.flt_last_buttons.5208
+                0x000000000080202c        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.flt_buttons.5207
+                0x000000000080202d        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.last_buttons.5206
+                0x000000000080202e        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.pressed_buttons.5192
+                0x000000000080202f        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.flt_last_buttons.5191
+                0x0000000000802030        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.flt_buttons.5190
+                0x0000000000802031        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.last_buttons.5189
+                0x0000000000802032        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.save_timeout
+                0x0000000000802033        0x1 xmega/applications/xmega_a1_xplained_demo/main.o
+ .bss.acc.5011  0x0000000000802034       0x20 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss.prog_snd_ptr
+                0x0000000000802054        0x4 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss.snd_cnt   0x0000000000802058        0x2 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss.snd_len   0x000000000080205a        0x2 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss.snd_samplewidth
+                0x000000000080205c        0x1 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss.sinefreqs
+                0x000000000080205d       0x10 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .bss.dacb_enable_count
+                0x000000000080206d        0x1 xmega/drivers/dac/dac.o
+ .bss.daca_enable_count
+                0x000000000080206e        0x1 xmega/drivers/dac/dac.o
+ .bss.tc_tcf1_ccb_callback
+                0x000000000080206f        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf1_cca_callback
+                0x0000000000802071        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf1_err_callback
+                0x0000000000802073        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf1_ovf_callback
+                0x0000000000802075        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf0_ccd_callback
+                0x0000000000802077        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf0_ccc_callback
+                0x0000000000802079        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf0_ccb_callback
+                0x000000000080207b        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf0_cca_callback
+                0x000000000080207d        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf0_err_callback
+                0x000000000080207f        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcf0_ovf_callback
+                0x0000000000802081        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce1_ccb_callback
+                0x0000000000802083        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce1_cca_callback
+                0x0000000000802085        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce1_err_callback
+                0x0000000000802087        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce1_ovf_callback
+                0x0000000000802089        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce0_ccd_callback
+                0x000000000080208b        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce0_ccc_callback
+                0x000000000080208d        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce0_ccb_callback
+                0x000000000080208f        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce0_cca_callback
+                0x0000000000802091        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce0_err_callback
+                0x0000000000802093        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tce0_ovf_callback
+                0x0000000000802095        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd1_ccb_callback
+                0x0000000000802097        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd1_cca_callback
+                0x0000000000802099        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd1_err_callback
+                0x000000000080209b        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd1_ovf_callback
+                0x000000000080209d        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd0_ccd_callback
+                0x000000000080209f        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd0_ccc_callback
+                0x00000000008020a1        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd0_ccb_callback
+                0x00000000008020a3        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd0_cca_callback
+                0x00000000008020a5        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd0_err_callback
+                0x00000000008020a7        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcd0_ovf_callback
+                0x00000000008020a9        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc1_ccb_callback
+                0x00000000008020ab        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc1_cca_callback
+                0x00000000008020ad        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc1_err_callback
+                0x00000000008020af        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc1_ovf_callback
+                0x00000000008020b1        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc0_ccd_callback
+                0x00000000008020b3        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc0_ccc_callback
+                0x00000000008020b5        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc0_ccb_callback
+                0x00000000008020b7        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc0_cca_callback
+                0x00000000008020b9        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc0_err_callback
+                0x00000000008020bb        0x2 xmega/drivers/tc/tc.o
+ .bss.tc_tcc0_ovf_callback
+                0x00000000008020bd        0x2 xmega/drivers/tc/tc.o
+ *(COMMON)
+ COMMON         0x00000000008020bf        0x6 common/services/sleepmgr/xmega/sleepmgr.o
+                0x00000000008020bf                sleepmgr_locks
+ COMMON         0x00000000008020c5      0x100 xmega/applications/xmega_a1_xplained_demo/main.o
+                0x00000000008020c5                sequence_buffer_length
+                0x00000000008020c6                sequence_buffer
+                0x00000000008021c5                PROVIDE (__bss_end, .)
+                0x000000000001e64a                __data_load_start = LOADADDR (.data)
+                0x000000000001e674                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008021c5        0x0
+                0x00000000008021c5                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00000000008021c5                PROVIDE (__noinit_end, .)
+                0x00000000008021c5                _end = .
+                0x00000000008021c5                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000      0x798
+ *(.stab)
+ .stab          0x0000000000000000      0x714 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+ .stab          0x0000000000000714       0x84 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+                                         0x90 (size before relaxing)
+
+.stabstr        0x0000000000000000       0x82
+ *(.stabstr)
+ .stabstr       0x0000000000000000       0x82 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 common/services/clock/xmega/sysclk.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 common/services/ioport/xmega/ioport_compat.o
+ .comment       0x0000000000000000       0x12 common/services/sleepmgr/xmega/sleepmgr.o
+ .comment       0x0000000000000000       0x12 xmega/applications/xmega_a1_xplained_demo/main.o
+ .comment       0x0000000000000000       0x12 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .comment       0x0000000000000000       0x12 xmega/boards/xmega_a1_xplained/init.o
+ .comment       0x0000000000000000       0x12 xmega/drivers/dac/dac.o
+ .comment       0x0000000000000000       0x12 xmega/drivers/nvm/nvm.o
+ .comment       0x0000000000000000       0x12 xmega/drivers/tc/tc.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x3c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 common/services/clock/xmega/sysclk.o
+ .debug_aranges
+                0x0000000000000030       0x20 common/services/ioport/xmega/ioport_compat.o
+ .debug_aranges
+                0x0000000000000050       0x18 common/services/sleepmgr/xmega/sleepmgr.o
+ .debug_aranges
+                0x0000000000000068       0x30 xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_aranges
+                0x0000000000000098       0x48 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_aranges
+                0x00000000000000e0       0x28 xmega/boards/xmega_a1_xplained/init.o
+ .debug_aranges
+                0x0000000000000108       0x50 xmega/drivers/dac/dac.o
+ .debug_aranges
+                0x0000000000000158       0xd8 xmega/drivers/nvm/nvm.o
+ .debug_aranges
+                0x0000000000000230      0x198 xmega/drivers/tc/tc.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x8965
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x93e common/services/clock/xmega/sysclk.o
+ .debug_info    0x000000000000093e      0x118 common/services/ioport/xmega/ioport_compat.o
+ .debug_info    0x0000000000000a56      0x11d common/services/sleepmgr/xmega/sleepmgr.o
+ .debug_info    0x0000000000000b73     0x2287 xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_info    0x0000000000002dfa     0x206c xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_info    0x0000000000004e66      0x632 xmega/boards/xmega_a1_xplained/init.o
+ .debug_info    0x0000000000005498      0xbe1 xmega/drivers/dac/dac.o
+ .debug_info    0x0000000000006079     0x1123 xmega/drivers/nvm/nvm.o
+ .debug_info    0x000000000000719c     0x17c9 xmega/drivers/tc/tc.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x0000000000000000     0x1777
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2a8 common/services/clock/xmega/sysclk.o
+ .debug_abbrev  0x00000000000002a8       0x9f common/services/ioport/xmega/ioport_compat.o
+ .debug_abbrev  0x0000000000000347       0x7d common/services/sleepmgr/xmega/sleepmgr.o
+ .debug_abbrev  0x00000000000003c4      0x41e xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_abbrev  0x00000000000007e2      0x452 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_abbrev  0x0000000000000c34      0x19a xmega/boards/xmega_a1_xplained/init.o
+ .debug_abbrev  0x0000000000000dce      0x316 xmega/drivers/dac/dac.o
+ .debug_abbrev  0x00000000000010e4      0x3ef xmega/drivers/nvm/nvm.o
+ .debug_abbrev  0x00000000000014d3      0x2a4 xmega/drivers/tc/tc.o
+
+.debug_line     0x0000000000000000     0x1b5c
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x20e common/services/clock/xmega/sysclk.o
+ .debug_line    0x000000000000020e       0xe5 common/services/ioport/xmega/ioport_compat.o
+ .debug_line    0x00000000000002f3       0xac common/services/sleepmgr/xmega/sleepmgr.o
+ .debug_line    0x000000000000039f      0x515 xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_line    0x00000000000008b4      0x487 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_line    0x0000000000000d3b      0x15c xmega/boards/xmega_a1_xplained/init.o
+ .debug_line    0x0000000000000e97      0x2d7 xmega/drivers/dac/dac.o
+ .debug_line    0x000000000000116e      0x403 xmega/drivers/nvm/nvm.o
+ .debug_line    0x0000000000001571      0x5eb xmega/drivers/tc/tc.o
+
+.debug_frame    0x0000000000000000     0x14ec
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x44 common/services/clock/xmega/sysclk.o
+ .debug_frame   0x0000000000000044       0x24 common/services/ioport/xmega/ioport_compat.o
+ .debug_frame   0x0000000000000068       0x44 xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_frame   0x00000000000000ac       0xec xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_frame   0x0000000000000198       0x34 xmega/boards/xmega_a1_xplained/init.o
+ .debug_frame   0x00000000000001cc       0xdc xmega/drivers/dac/dac.o
+ .debug_frame   0x00000000000002a8      0x3e0 xmega/drivers/nvm/nvm.o
+ .debug_frame   0x0000000000000688      0xe64 xmega/drivers/tc/tc.o
+
+.debug_str      0x0000000000000000     0x35ec
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x639 common/services/clock/xmega/sysclk.o
+                                        0x67d (size before relaxing)
+ .debug_str     0x0000000000000639       0xb8 common/services/ioport/xmega/ioport_compat.o
+                                        0x231 (size before relaxing)
+ .debug_str     0x00000000000006f1      0x151 common/services/sleepmgr/xmega/sleepmgr.o
+                                        0x2bf (size before relaxing)
+ .debug_str     0x0000000000000842      0xc2f xmega/applications/xmega_a1_xplained_demo/main.o
+                                       0x1107 (size before relaxing)
+ .debug_str     0x0000000000001471     0x122a xmega/applications/xmega_a1_xplained_demo/sound.o
+                                       0x1df2 (size before relaxing)
+ .debug_str     0x000000000000269b       0x35 xmega/boards/xmega_a1_xplained/init.o
+                                        0x3c6 (size before relaxing)
+ .debug_str     0x00000000000026d0      0x455 xmega/drivers/dac/dac.o
+                                        0xa49 (size before relaxing)
+ .debug_str     0x0000000000002b25      0x4c6 xmega/drivers/nvm/nvm.o
+                                        0xa76 (size before relaxing)
+ .debug_str     0x0000000000002feb      0x601 xmega/drivers/tc/tc.o
+                                        0xdb6 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4edf
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x272 common/services/clock/xmega/sysclk.o
+ .debug_loc     0x0000000000000272       0x7d common/services/ioport/xmega/ioport_compat.o
+ .debug_loc     0x00000000000002ef      0x81e xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_loc     0x0000000000000b0d      0x904 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_loc     0x0000000000001411       0x9b xmega/boards/xmega_a1_xplained/init.o
+ .debug_loc     0x00000000000014ac      0x4f2 xmega/drivers/dac/dac.o
+ .debug_loc     0x000000000000199e     0x1327 xmega/drivers/nvm/nvm.o
+ .debug_loc     0x0000000000002cc5     0x221a xmega/drivers/tc/tc.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x450
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x50 common/services/clock/xmega/sysclk.o
+ .debug_ranges  0x0000000000000050       0x10 common/services/ioport/xmega/ioport_compat.o
+ .debug_ranges  0x0000000000000060       0xb0 xmega/applications/xmega_a1_xplained_demo/main.o
+ .debug_ranges  0x0000000000000110       0x68 xmega/applications/xmega_a1_xplained_demo/sound.o
+ .debug_ranges  0x0000000000000178       0x30 xmega/boards/xmega_a1_xplained/init.o
+ .debug_ranges  0x00000000000001a8       0x40 xmega/drivers/dac/dac.o
+ .debug_ranges  0x00000000000001e8       0xe0 xmega/drivers/nvm/nvm.o
+ .debug_ranges  0x00000000000002c8      0x188 xmega/drivers/tc/tc.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(xmega_a1_xplained_demo.elf elf32-avr)
+LOAD linker stubs
+
+.BOOT           0x0000000000020000        0x0
+
+Cross Reference Table
+
+Symbol                                            File
+__bad_interrupt                                   /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__bss_end                                         /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_clear_bss.o)
+                                                  xmega/drivers/tc/tc.o
+                                                  xmega/drivers/dac/dac.o
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+                                                  common/services/sleepmgr/xmega/sleepmgr.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_copy_data.o)
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+                                                  common/services/sleepmgr/xmega/sleepmgr.o
+__heap_end                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__init                                            /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__muluhisi3                                       /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+__stack                                           /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__tablejump2__                                    /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+__tablejump__                                     /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_tablejump.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_udivmodsi4.o)
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+__umulhisi3                                       /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_muluhisi3.o)
+__vector_1                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_10                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_100                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_101                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_102                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_103                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_104                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_105                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_106                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_107                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_108                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_109                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_11                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_110                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_111                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_112                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_113                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_114                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_115                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_116                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_117                                      xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_118                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_119                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_12                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_120                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_121                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_122                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_123                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_124                                      /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_13                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_14                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_15                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_16                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_17                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_18                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_19                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_2                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_20                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_21                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_22                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_23                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_24                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_25                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_26                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_27                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_28                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_29                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_3                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_30                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_31                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_32                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_33                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_34                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_35                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_36                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_37                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_38                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_39                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_4                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_40                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_41                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_42                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_43                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_44                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_45                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_46                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_47                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_48                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_49                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_5                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_50                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_51                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_52                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_53                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_54                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_55                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_56                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_57                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_58                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_59                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_6                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_60                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_61                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_62                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_63                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_64                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_65                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_66                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_67                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_68                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_69                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_7                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_70                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_71                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_72                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_73                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_74                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_75                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_76                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_77                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_78                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_79                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_8                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_80                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_81                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_82                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_83                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_84                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_85                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_86                                       xmega/drivers/tc/tc.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_87                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_88                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_89                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_9                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_90                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_91                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_92                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_93                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_94                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_95                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_96                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_97                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_98                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_99                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vector_default                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+__vectors                                         /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+_exit                                             /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+board_init                                        xmega/boards/xmega_a1_xplained/init.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+ccp_write_io                                      xmega/drivers/cpu/ccp.o
+                                                  xmega/drivers/nvm/nvm.o
+                                                  common/services/clock/xmega/sysclk.o
+dac_disable                                       xmega/drivers/dac/dac.o
+dac_enable                                        xmega/drivers/dac/dac.o
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+dac_is_enabled                                    xmega/drivers/dac/dac.o
+dac_read_configuration                            xmega/drivers/dac/dac.o
+dac_write_configuration                           xmega/drivers/dac/dac.o
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+exit                                              /usr/lib/gcc/avr/4.8.2/avrxmega7/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+ioport_configure_port_pin                         common/services/ioport/xmega/ioport_compat.o
+                                                  xmega/boards/xmega_a1_xplained/init.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+main                                              xmega/applications/xmega_a1_xplained_demo/main.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/crtx128a1.o
+memcpy                                            /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avrxmega7/libc.a(memcpy.o)
+                                                  xmega/drivers/nvm/nvm.o
+notes                                             xmega/applications/xmega_a1_xplained_demo/sound.o
+nvm_common_spm                                    xmega/drivers/nvm/nvm_asm.o
+                                                  xmega/drivers/nvm/nvm.o
+nvm_eeprom_atomic_write_page                      xmega/drivers/nvm/nvm.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+nvm_eeprom_erase_all                              xmega/drivers/nvm/nvm.o
+nvm_eeprom_erase_and_write_buffer                 xmega/drivers/nvm/nvm.o
+nvm_eeprom_erase_bytes_in_all_pages               xmega/drivers/nvm/nvm.o
+nvm_eeprom_erase_bytes_in_page                    xmega/drivers/nvm/nvm.o
+nvm_eeprom_erase_page                             xmega/drivers/nvm/nvm.o
+nvm_eeprom_fill_buffer_with_value                 xmega/drivers/nvm/nvm.o
+nvm_eeprom_flush_buffer                           xmega/drivers/nvm/nvm.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+nvm_eeprom_load_byte_to_buffer                    xmega/drivers/nvm/nvm.o
+nvm_eeprom_load_page_to_buffer                    xmega/drivers/nvm/nvm.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+nvm_eeprom_read_buffer                            xmega/drivers/nvm/nvm.o
+nvm_eeprom_read_byte                              xmega/drivers/nvm/nvm.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+nvm_eeprom_split_write_page                       xmega/drivers/nvm/nvm.o
+nvm_eeprom_write_byte                             xmega/drivers/nvm/nvm.o
+nvm_flash_erase_and_write_buffer                  xmega/drivers/nvm/nvm.o
+nvm_flash_load_word_to_buffer                     xmega/drivers/nvm/nvm_asm.o
+                                                  xmega/drivers/nvm/nvm.o
+nvm_flash_read_buffer                             xmega/drivers/nvm/nvm.o
+nvm_fuses_read                                    xmega/drivers/nvm/nvm.o
+nvm_issue_flash_range_crc                         xmega/drivers/nvm/nvm.o
+nvm_read_byte                                     xmega/drivers/nvm/nvm_asm.o
+                                                  xmega/drivers/nvm/nvm.o
+                                                  xmega/drivers/dac/dac.o
+nvm_read_device_serial                            xmega/drivers/nvm/nvm.o
+nvm_user_sig_read_buffer                          xmega/drivers/nvm/nvm.o
+nvm_user_sig_write_buffer                         xmega/drivers/nvm/nvm.o
+sample_callback                                   xmega/applications/xmega_a1_xplained_demo/sound.o
+sequence_buffer                                   xmega/applications/xmega_a1_xplained_demo/main.o
+sequence_buffer_length                            xmega/applications/xmega_a1_xplained_demo/main.o
+sleepmgr_configs                                  common/services/sleepmgr/xmega/sleepmgr.o
+sleepmgr_locks                                    xmega/drivers/tc/tc.o
+                                                  xmega/drivers/dac/dac.o
+                                                  common/services/sleepmgr/xmega/sleepmgr.o
+snd_bell                                          xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_drum                                          xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_drumroll                                      xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_fanfare                                       xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_sax                                           xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_sine                                          xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_sym                                           xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_synth1                                        xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_synth2                                        xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_synth3                                        xmega/applications/xmega_a1_xplained_demo/sound.o
+snd_youwin                                        xmega/applications/xmega_a1_xplained_demo/sound.o
+sound_init                                        xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+sound_is_playing                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+sound_play_note                                   xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+sound_play_sample                                 xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+sysclk_disable_module                             common/services/clock/xmega/sysclk.o
+                                                  xmega/drivers/tc/tc.o
+                                                  xmega/drivers/dac/dac.o
+sysclk_enable_module                              common/services/clock/xmega/sysclk.o
+                                                  xmega/drivers/tc/tc.o
+                                                  xmega/drivers/dac/dac.o
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+sysclk_init                                       common/services/clock/xmega/sysclk.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+tc_disable                                        xmega/drivers/tc/tc.o
+tc_enable                                         xmega/drivers/tc/tc.o
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+tc_set_cca_interrupt_callback                     xmega/drivers/tc/tc.o
+tc_set_ccb_interrupt_callback                     xmega/drivers/tc/tc.o
+tc_set_ccc_interrupt_callback                     xmega/drivers/tc/tc.o
+tc_set_ccd_interrupt_callback                     xmega/drivers/tc/tc.o
+tc_set_error_interrupt_callback                   xmega/drivers/tc/tc.o
+tc_set_overflow_interrupt_callback                xmega/drivers/tc/tc.o
+                                                  xmega/applications/xmega_a1_xplained_demo/sound.o
+                                                  xmega/applications/xmega_a1_xplained_demo/main.o
+timeout_callback                                  xmega/applications/xmega_a1_xplained_demo/main.o
